@@ -1,5 +1,6 @@
 #!/usr/bin/perl
-#this script calc's the ave of $col in some data file
+#gerrick lindberg - may 16 2019
+#this script calc's the ave of a column specified on the command line in a file also specified on the command line
 die "expecting input in form:\n./exe [column to analyze] [file to read from]" unless (@ARGV==2);
 $col=shift @ARGV;$col--;
 $val=0;$ave=0;$ave2=0;
